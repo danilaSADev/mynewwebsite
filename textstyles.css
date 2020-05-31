@@ -1,0 +1,40 @@
+@font-face {
+	font-family: "CustomHeadings";
+	src: url(century_gothic.ttf);
+}
+
+html {
+	height: 100%;
+}
+
+ body {
+	margin: 0; 
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+h1 {
+	text-align: center;
+	font-family: "CustomHeadings";
+}
+
+#footer {
+	background-color: black;
+	padding: 20px;
+}
+
+#content {
+	flex: 1;
+}
+
+.text_white {
+	color: white;
+}
+
+.black_div {
+	background-color: black;
+	padding: 4%;
+	margin-top: 15%;
+}
