@@ -28,9 +28,8 @@ h1,h2,h3 {
 
 article {
 	background-color: lightgray;
-	width: 80%;
+	width: 70%;
 	float: left;
-	min-width: 50%; 
 }
 
 header {
@@ -44,6 +43,7 @@ header {
 }
 
 .grayheading {
+	font-size: 36px;
 	text-align: left;
 	background-color: gray;
 	color: white;

@@ -15,4 +15,4 @@ function windowResized() {
 	}
 }
 
-windowResized()
+document.addEventListener("DOMContentLoaded", windowResized);
