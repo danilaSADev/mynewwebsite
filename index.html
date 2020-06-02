@@ -2,22 +2,36 @@
 
 
 <title>
-	danilaSADev
+	 danilaSADev
 </title>
 
 <head>
+	<link rel="shortcut icon" href="c.ico" />
 	<link rel="stylesheet" type="text/css" href="textstyles.css">
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-	
+	<script src="main.js"></script>
 </head>	
 
-<body>
-	<div id="content"> 
-		<div class="black_div">
-			<h1 class="text_white">
-				Nothing new to see here. Come back later!
-			</h1>
-		</div>
-	</div>
-	<footer class="black_div" id="footer"><h1 class="text_white">Footer text</h1></footer>
+<body onresize="windowResized()">
+	<header>
+		<h1>Welcome</h1>
+	</header>
+	<section>
+		<nav id="navTag">
+			<div id = "navdiv">
+				<h1 class="grayheading">Navigation</h1>
+				<ul>
+					<li><h2>About me</h2></li>
+					<li><h2>Portfolio</h2></li>
+					<li><h2>Dev Blog</h2></li>
+				</ul>
+			</div>
+		</nav>
+		<article id = "firstArticle">
+			<h1 class="grayheading">TestinTestin123</h1>
+			<p><h2>Paragraph</h2></p>	
+		</article>
+	</section>
+	<footer class="black_div" id="footer">
+		<h1 class="white">Footer text</h1>
+	</footer>
 </body>

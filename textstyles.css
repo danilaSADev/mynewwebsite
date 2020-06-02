@@ -7,7 +7,7 @@ html {
 	height: 100%;
 }
 
- body {
+body {
  	background-repeat: no-repeat;
 	margin: 0; 
 	display: flex;
@@ -15,9 +15,49 @@ html {
 	min-height: 100%;
 }
 
-h1 {
-	text-align: center;
+section:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+h1,h2,h3 {
 	font-family: "CustomHeadings";
+	color: white;
+}
+
+article {
+	background-color: lightgray;
+	width: 80%;
+	float: left;
+	min-width: 50%; 
+}
+
+header {
+	background-image: url(https://i.gyazo.com/f3a3900e366193dbe69db2e8d05c05c0.gif);
+	background-size: cover;
+	background-color: black;
+	background-position: 0 95%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 15%;
+}
+
+.grayheading {
+	text-align: left;
+	background-color: gray;
+	color: white;
+}
+
+#navdiv {
+	width: 20%;
+	float: left;
+	align-content: left;
+	font-family: "CustomHeadings";
+	text-align: left;
+	background-color: #000000;
+	color: white;
+	padding-top: 10px;
 }
 
 #footer {
@@ -27,10 +67,6 @@ h1 {
 
 #content {
 	flex: 1;
-}
-
-.text_white {
-	color: white;
 }
 
 .black_div {
