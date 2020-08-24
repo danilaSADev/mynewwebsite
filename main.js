@@ -18,5 +18,5 @@ function windowResized() {
 document.addEventListener("DOMContentLoaded", windowResized);
 document.onscroll = function() {
 	let a = document.documentElement.scrollTop
-	alert(a)
+//	alert(a)
 }

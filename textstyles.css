@@ -7,9 +7,17 @@ html {
 	height: 100%;
 }
 
+div {
+	margin: 0;
+	padding: 0;
+}
+
 body {
- 	background-repeat: no-repeat;
- 	background-color: #382e2e;
+	background-image: url(https://i.gyazo.com/f3a3900e366193dbe69db2e8d05c05c0.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
 	margin: 0; 
 	display: flex;
 	flex-direction: column;
@@ -20,66 +28,47 @@ section:after {
 	content: "";
 	display: table;
 	clear: both;
+	margin-bottom: 0;
 }
 
 h1,h2,h3 {
 	font-family: "CustomHeadings";
 	color: white;
 }
-
+.article_image {
+	margin: 0%;
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
 .g_heading {
+	margin: 0;
 	font-size: 36px;
 	background-color: #BAADAD;
 	color: white;
 }
 
+.two_columns {
+	column-count: 2;
+	margin: 0;
+}
+
 article {
-	margin-top: 5%;
 	text-align: center;
 	background-color: #877e7e;
 	width: 100%;
-}
-
-.mainArticle {
-	float: left;
-	width: 70%;
-}
-
-.notMainArticle {
-	float: center;
-	align-self: center;
-	width: 70%;
-}
-
-.articleImage {
-	float: left;
-	background-color: #BAADAD;
-	width: 33%;
-	height: 33%;
+	min-height: auto;
+	margin: 0%;
 }
 
 header {
-	background-image: url(https://i.gyazo.com/f3a3900e366193dbe69db2e8d05c05c0.gif);
-	background-size: cover;
-	background-color: #b59696;
+	background-color: #b5969600;
 	background-position: 0 75%;
 	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 10%;
-}
-
-
-
-
-#navdiv {
-	width: 20%;
-	float: left;
-	align-content: left;
-	font-family: "CustomHeadings";
-	text-align: left;
-	background-color: #000000;
-	color: white;
-	padding-top: 10px;
+	font-size: 150%;
+	padding-top: 20%;
+	padding-bottom: 30%;
 }
 
 #footer {
